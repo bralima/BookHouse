@@ -1,0 +1,177 @@
+﻿
+
+
+
+
+#################################### TERROR
+
+INSERT INTO LIVRO (Nome, Descricao, IMG, Editora, Autor, Lancamento, Preco, Genero) VALUES
+('Carrie - A Estranha',  'Carrie é uma adolescente tímida e solitária. Aos 16 anos, é completamente dominada pela mãe, uma fanática religiosa que reprime todas as vontades e descobertas especiais aos jovens de sua idade. Para Carrie, tudo é pecado. Viver é enfrentar todo dia o terrível peso da culpa.', 
+ 'C:\\',  'suma',  'Stephen King',  '1974-01-01',  69.90,  'terror'),
+
+
+('O Iluminado',  '“O lugar perfeito para recomeçar”, é o que pensa Jack Torrance ao ser contratado como zelador para o inverno. Hora de deixar para trás o alcoolismo, os acessos de fúria, os repetidos fracassos. Isolado pela neve com a esposa e o filho, tudo o que Jack deseja é um pouco de paz para se dedicar à escrita.', 
+ 'C:\\',  'suma',  'Stephen King',  '1977-01-01',  61.42,  'terror'),
+
+
+('Doutor Sono',  'Danny enfrenta problemas semelhantes aos de seu pai, Jack Torrance, em "O Iluminado". Assombrado por entidades e pelo fantasma de seu pai, Danny, agora com 30 anos, luta contra o alcoolismo. Ele usa uma bebida para suprimir sua habilidade de ver os mortos (sua iluminação).', 
+ 'C:\\',  'suma',  'Stephen King',  '2013-01-01',  57.57,  'terror'),
+
+
+('Cemitério Maldito',  'No livro, o médico Louis Creed se muda com a família para uma casa antiga, à beira de uma estrada onde caminhões e carros passam a toda velocidade. Logo, os Creed perdem um gato por atropelamento e descobrem um "cemitério de animais de estimação" na floresta que cerca sua residência.', 
+ 'C:\\',  'suma',  'Stephen King',  '1983-01-01',  63.10,  'terror'),
+
+
+('Ed & Lorraine Warren - Demonologistas – Arquivos Sobrenaturais',  'Eles enfrentaram os mistérios mais sinistros dos últimos sessenta anos, sempre em busca da verdade. Agora é sua vez de entrar em contato com o sobrenatural. Você tem coragem? Então leia Ed & Lorraine Warren: Demonologistas, a biografia definitiva dos mais famosos investigadores paranormais do nosso plano astral. O resultado é um livro rico em detalhes como nenhum outro.', 
+ 'C:\\',  'Darside',  'Gerald Brittle',  '1980-01-01',  59.92,  'terror'),
+
+
+('Sombras da Noite', 'São contos sobre acontecimentos bizarros e atos impensáveis que surgem naquele momento de crepúsculo, onde ruídos nas paredes e sombras perto da cama prenunciam algo terrível.', 
+ 'C:\\',  'suma',  'Stephen King',  '1978-01-01',  68.18,  'terror'),
+
+
+('IT - A Coisa',  'Durante as férias de 1958, em uma pacata cidadezinha chamada Derry, um grupo de sete amigos começa a ver coisas estranhas. Uma conta que viu um palhaço, outra que viu uma múmia. Finalmente, acabei descobrindo que todos estavam vendo a mesma coisa: um ser sobrenatural e maligno que pode assumir várias formas.', 
+ 'C:\\',  'suma',  'Stephen King',  '1958-01-01',  84.58,  'romance'),
+
+
+('Colheita Maldita',  'Jovem casal (Peter Norton e Linda Hamilton) presencia assassinato horrendo e parte para Gatlin, a cidade mais próxima, para avisar como autoridades. O local, ainda assim, parece abandonado e logo, eles são aprisionados por um menino sinistro chamado Isaac Chroner. O garoto misteriosamente controla todas as crianças da região. Isaac convenceu-as a assassinar todos os adultos para um ritual maldito.', 
+ 'C:\\',  'suma',  'Stephen King',  '1984-01-01',  71.18,  'terror');
+
+
+
+#################################### ROMANCE
+
+INSERT INTO LIVRO (Nome, Descricao, IMG, Editora, Autor, Lancamento, Preco, Genero) VALUES
+('A Culpa é das Estrelas',  '“A culpa é das estrelas” narra o romance de dois adolescentes que se conhecem (e se apaixonam) em um Grupo de Apoio para Crianças com Câncer: Hazel, uma jovem de dezesseis anos que sobrevive graças a uma droga revolucionária que detém a metástase em seus pulmões, e Augustus Waters, de dezessete, ex-jogador de basquete.', 
+ 'C:\\',  'Intrínseca',  'John Green',  '2012-01-01',  42.34,  'romance'),
+
+
+('Orgulho e Preconceito',  'A história de Orgulho e Preconceito gira em torno das cinco irmãs Bennet, que viviam na área rural do interior da Inglaterra, no século XVIII. Aborda a questão da sucessão em uma família sem herdeiros homens, dentro de uma sociedade patriarcal, onde o casamento era fundamental para as mulheres.', 
+ 'C:\\',  'Editorial Record',  'Jane Austen',  '1813-01-01',  51.41,  'romance'),
+
+
+('É Assim que Começa',  '"É Assim Que Começa", o novo romance de Colleen Hoover, é uma obra que promete tocar os corações de seus leitores de maneira profunda e inesquecível. Nesta história, Colleen Hoover nos apresenta a vida de Lily Bloom, uma mulher que sempre lutou para construir uma vida melhor para si mesma.', 
+ 'C:\\',  'Galera',  'Colleen Hoover',  '2022-01-01',  60.00,  'romance'),
+
+
+('O Pequeno Príncipe',  'O pequeno príncipe é um clássico da literatura infantil que narra a amizade entre um menino e um piloto de avião. O principezinho vem do asteroide B 612, e encontra o piloto no deserto do Saara. A obra fala de amor, amizade e sobre a sabedoria infantil.', 
+ 'C:\\',  'Grupo Companhia das Letras',  'Antoine de Saint-Exupéry',  '1943-01-01',  41.93,  'romance'),
+
+
+('A Barraca do Beijo',  'ELLE EVANS é o que toda garota quer ser: bonita e popular. Mas ela nunca foi beijada. NOAH FLYNN é lindo e um tanto quanto bad boy - tá, o maior bad boy da escola - e o rei dos joguinhos de sedução. A verdade é que Elle sempre teve uma queda pelo jeito descolado de Noah.', 
+ 'C:\\',  'Astral Cultural',  'Beth Reekles',  '2018-01-01',  38.42,  'romance'),
+
+
+('Eu Te Amei em Outra Vida',  'Uma sensível história de amor sobre dois jovens sensíveis e suas almas que insistem em se encontrar a cada nova vida.', 
+ 'C:\\',  'Livros da Alice',  'David Arnold',  '2024-01-01',  37.06,  'romance'),
+
+
+('Os Segredos de Colin Bridgerton',  'Há muitos anos Penélope Featherington frequenta a casa dos Bridgertons. E há muitos anos alimenta uma paixão secreta por Colin, irmão de sua melhor amiga e um dos solteiros mais encantadores e arredios de Londres.', 
+ 'C:\\',  'Editora Arqueiro',  'Julia Quinn',  '2014-01-01',  41.53,  'romance');
+
+#################################### DRAMA
+INSERT INTO LIVRO (Nome, Descricao, IMG, Editora, Autor, Lancamento, Preco, Genero) VALUES
+('A Biblioteca da Meia-Noite',  'Aos 35 anos, Nora Seed é uma mulher cheia de talentos e poucas conquistas. Arrependida das escolhas que fez no passado, ela vive se perguntando o que poderia ter acontecido caso tivesse vivido de maneira diferente. Após ser demitida e seu gato ser atropelado, Nora vê pouco sentido em sua existência e decide colocar um ponto final em tudo. Porém, quando se vê na Biblioteca da Meia-Noite, Nora ganha uma oportunidade única de viver todas as vidas que poderia ter vivido.', 
+ 'C:\\',  'Bertrand Brasil',  'Mat Haig',  '2021-01-01',  41.93,  'Drama'),
+
+
+('Tudo Que Meu Coração Grita',  '"Talvez eu nunca consiga entender sinceramente e verdadeiramente os seus motivos. Talvez eu nunca aceite definitivamente a sua escolha de ir. [...] Agora eu olho pra frente. Eu olho pra quem eu me tornei depois de tudo. Depois de você. Depois de nós." Tudo que meu coração grita desde o dia em que você (o) partiu fala de finais e de como eles são necessários para a caminhada pessoal.', 
+ 'C:\\',  'Crivo',  'Gabriela Freitas',  '2021-01-01',  44.20,  'Drama'),
+
+
+('O Fabricante de Lágrimas',  'Nica cresceu em um orfanato e os contos de fada eram seu único conforto em meio aos terrores reais que assombravam os corredores da instituição. Agora que é adolescente, escolheu deixar as fantasias infantis para trás e focar no seu sonho de ser adotada.', 
+ 'C:\\',  'HarperCollins',  'Erin Doom',  '2023-01-01',  58.11,  'Drama'),
+
+
+('Antes Que o Café Esfrie',  'Se fosse possível viajar no tempo, quem você gostaria de encontrar? [...] Em Antes que o Café Esfrie, conheceremos quatro pessoas que precisam viver essa experiência, porém... A jornada envolve riscos e possui regras, por sinal extremamente irritantes.', 
+ 'C:\\',  'Valentina',  'Toshikazu Kawaguchi',  '2022-01-01',  34.93,  'Drama'),
+
+
+('Ainda Estou Aqui',  'Eunice Paiva é uma mulher de muitas vidas. Casada com o deputado Rubens Paiva, esteve ao seu lado quando foi cassado e exilado, em 1964. [...] Marcelo Rubens Paiva fala também da memória, da infância e do filho.', 
+ 'C:\\',  'Alfaguara',  'Marcelo Rubens Paiva',  '2015-01-01',  59.57,  'Drama'),
+
+
+('A Cirurgiã',  'Cirurgiã renomada, esposa amorosa e... assassina? Antes de seu mundo desabar, a doutora Anne Wiley tinha uma vida perfeita. [...] Um suspense psicológico totalmente envolvente que fará você correr pelas páginas até o final.', 
+ 'C:\\',  'Faro Editorial',  'Leslie Wolf',  '2024-01-01',  33.92,  'Drama'),
+
+
+('A Morte é um Dia que Vale a Pena Viver',  'Sobre a arte de ganhar existem muitas lições, mas e sobre a arte de perder? Ninguém quer falar a respeito disso, mas a verdade é que passamos muito tempo da vida em grande sofrimento quando perdemos bens, pessoas, realidades, sonhos.', 
+ 'C:\\',  'Editora Sextante',  'Ana Cláudia Quintana',  '2019-01-01',  34.93,  'Drama'),
+
+
+('Primeiro Eu Tive Que Morrer',  'Neste romance de estreia da autora Lorena Portela, um inventário da autodescoberta de uma mulher que nem se imaginava perdida. [...] Um poderoso romance de estreia que, ao revelar a dolorosa mirada dessa jovem no espelho, coloca a todos no reflexo e contesta um mundo no qual o mecanismo de relações abusivas, excesso de trabalho, assédio e desamor é sinônimo de força.', 
+ 'C:\\','Planeta',  'Lorena Portela',  '2022-01-01',  30.99,  'Drama');
+
+
+
+
+
+
+#################################### SUSPENSE
+INSERT INTO LIVRO (Nome, Descricao, IMG, Editora, Autor, Lancamento, Preco, Genero) VALUES
+('A Paciente Silenciosa',  'Após cometer o assassinato de seu marido, uma mulher se recusa a falar qualquer coisa, deixando suspeitas e mistérios não resolvidos sobre o caso. O terapeuta Theo Faber está obcecado em descobrir o motivo da violência e do silêncio. Só ela sabe o que aconteceu. Só ele pode fazê-la falar.', 
+ 'C:\\',  'Record',  'Alex Michaelides',  '2019-01-01',  41.73,  'Suspense'),
+
+
+('Anna O – O Aguardado Thriller',  'E se seus pesadelos não fossem apenas pesadelos? A jovem Anna Ogilvy era uma aspirante a escritora com um futuro brilhante pela frente quando esfaqueou até a morte seus dois melhores amigos sem motivo aparente. Desde então, não acordou mais.', 
+ 'C:\\',  'HarperCollins',  'Matthew Blake',  '2024-01-01',  44.40,  'Suspense'),
+
+ 
+ ('O Casal Que Mora ao Lado',  'Tudo começou em um jantar... É o aniversário de Graham, e sua esposa, Cynthia, convida os vizinhos, Anne e Marco Conti, para um jantar. Marco acha que isso será bom para a esposa; afinal, ela quase nunca sai de casa desde o nascimento de Cora, mas a babá avisa que não poderá ficar com a bebê.', 
+ 'C:\\',  'Record',  'Shari Lapena',  '2017-01-01',  35.85,  'Suspense'),
+
+
+('O Enigma do Quarto 622', 
+ 'Em uma noite de dezembro, o sofisticado hotel Palace de Verbier, nos Alpes Suíços, é palco de um assassinato sem solução. Anos depois, o escritor Joël decide tirar alguns dias de férias e se hospeda nesse mesmo local, mergulhando em uma investigação sobre o caso emblemático.', 
+ 'C:\\',  'Intrínseca',  'Joël Dicker',  '2021-01-01',  47.08,  'Suspense'),
+
+
+('O Sanatório',  'Um resort isolado no alto dos Alpes Suíços é o último lugar em que Elin Warner gostaria de estar. Mas ao receber o convite inesperado para comemorar o noivado do irmão, Isaac, a quem não vê há anos, ela sente que o melhor que pode fazer é aceitar.', 
+ 'C:\\',  'Intrínseca',  'Sarah Pearse',  '2022-01-01',  53.12,  'Suspense'),
+
+
+('A Família Perfeita',  'Logo após seu vigésimo quinto aniversário, Libby Jones chega em casa e encontra a carta que esperou por toda a sua vida. Ao abri-la, a jovem tem apenas uma coisa em mente: enfim vai saber quem ela é.', 
+ 'C:\\',  'Intrínseca',  'Lisa Jewell',  '2022-01-01',  43.65,  'Suspense'),
+
+
+('O Dom do Crime',  'Um homem do século XIX, ao ser aconselhado pelo médico a escrever suas memórias, se lança sobre um crime passional, notícia no Rio de Janeiro de Machado de Assis. O narrador traça paralelos entre este assassinato e a obra mais aclamada de Machado, Dom Casmurro.', 
+ 'C:\\',  'Rua do Sabão',  'Marco Lucchesi',  '2010-01-01',  55.00,  'Suspense'),
+
+
+('A Garota do Lago',  'Summit Lake, uma pequena cidade, é onde uma estudante de direito, Becca Eckersley, foi brutalmente assassinada. A repórter Kelsey Castle vai até a cidade para investigar o caso, estabelecendo uma conexão íntima quando um vivo caminha nas mesmas pegadas dos mortos.', 
+ 'C:\\',  'Faro Editorial',  'Charlie Donlea',  '2017-01-01',  16.43,  'Suspense');
+ 
+
+#################################### AVENTURA 
+INSERT INTO LIVRO (Nome, Descricao, IMG, Editora, Autor, Lancamento, Preco, Genero) VALUES
+('O Aprendiz',  'Ele pode invocar demônios. Mas consegue vencer uma guerra? Primeiro volume da série Conjurador, O aprendiz é um prato cheio para os fãs de Harry Potter, O Senhor dos Anéis e outros clássicos da fantasia. Fletcher é um órfão de 15 anos que consegue invocar um demônio do quinto nível e se torna um conjurador na Academia Vocans.', 
+ 'C:\\',  'Galera',  'Taran Matharu',  '2015-01-01',  48.93,  'Aventura'),
+
+
+('A Saga Wingfeather',  'No mesmo estilo imaginativo de C.S. Lewis, a Saga Wingfeather é uma fantasia épica e redentiva. Quando as crianças Igiby fogem com sua mãe e seu avô através do Mar Sombrio da Escuridão, elas enfrentam um poderoso inimigo e buscam um poder misterioso para restaurar o reino.', 
+ 'C:\\',  'Trinitas',  'Andrew Peterson',  '2021-01-01',  42.30,  'Aventura'),
+
+
+('A Ilha do Tesouro',  'A vida de Jim Hawkins muda ao conhecer Billy Jones, que possui um mapa de um tesouro pirata. Jim parte em uma expedição, enfrentando perigos tanto no mar quanto em terra firme.', 
+ 'C:\\',  'Principis',  'Robert Louis Stevenson',  '2019-01-01',  16.45,  'Aventura'),
+
+
+('Ninguém Vai Te Ouvir',  'A Academia Masters é um internato prestigiado, mas esconde segredos sinistros. Quando Calvin desaparece na festa de boas-vindas, seu irmão Andrew se vê em uma trama de mistérios que ameaçam sua vida.', 
+ 'C:\\',  'Companhia Editora Nacional',  'Mark Miller',  '2023-01-01',  41.38,  'Aventura'),
+
+
+('Conto de Fadas',  'Charlie Reade, um garoto de dezessete anos, vive um cotidiano comum, mas suas lembranças incluem perdas e desafios que o moldaram. Após a morte da mãe, ele aprende a cuidar do pai em meio ao luto.', 
+ 'C:\\',  'Suma',  'Stephen King',  '2022-01-01',  76.92,  'Aventura'),
+
+
+('Jardim Secreto',  'Em 1911, Frances Hodgson Burnett apresentou O Jardim Secreto, uma história sobre magia, natureza e amizade. Mary Lennox, uma menina solitária, descobre um jardim secreto que transforma sua vida.', 
+ 'C:\\',  'Darkside',  'Frances Hodgson Burnett',  '2021-01-01',  55.20,  'Aventura'),
+
+('A Rainha Vermelha',  'No mundo dividido entre sangue vermelho e prateado, Mare Barrow descobre um poder misterioso que desafia seu destino como plebeu. Suas ações desencadeiam uma luta violenta entre os príncipes e ela mesma.', 
+ 'C:\\',  'Seguinte',  'Victoria Aveyard',  '2015-01-01',  36.74,  'Aventura'),
+
+
+('Outsider',  'Após o assassinato brutal de um menino, Terry Maitland é acusado do crime. Embora tenha um álibi, evidências o ligam ao caso, e a investigação revela segredos aterrorizantes.', 
+ 'C:\\',  'Suma',  'Stephen King', '2018-01-01',  73.29,  'Aventura');
+
+

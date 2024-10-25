@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B667312-D225-45A3-8C69-9C45A5D98446}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Livraria</RootNamespace>
+    <AssemblyName>Livraria</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCadastroDeCartao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroDeCartao.Designer.cs">
+      <DependentUpon>frmCadastroDeCartao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCartao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCartao.Designer.cs">
+      <DependentUpon>frmCartao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompra.Designer.cs">
+      <DependentUpon>frmCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmComprasFeitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComprasFeitas.Designer.cs">
+      <DependentUpon>frmComprasFeitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLugar.Designer.cs">
+      <DependentUpon>frmLugar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobreNos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobreNos.Designer.cs">
+      <DependentUpon>frmSobreNos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroDeLugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroDeLugar.Designer.cs">
+      <DependentUpon>frmCadastroDeLugar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginCadastro.Designer.cs">
+      <DependentUpon>frmLoginCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCarrinho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCarrinho.Designer.cs">
+      <DependentUpon>frmCarrinho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenero.Designer.cs">
+      <DependentUpon>frmGenero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLivro.Designer.cs">
+      <DependentUpon>frmLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaginaDePerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaginaDePerfil.Designer.cs">
+      <DependentUpon>frmPaginaDePerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaginaDoLivro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaginaDoLivro.Designer.cs">
+      <DependentUpon>frmPaginaDoLivro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaginaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaginaInicial.Designer.cs">
+      <DependentUpon>frmPaginaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCadastroDeCartao.resx">
+      <DependentUpon>frmCadastroDeCartao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroDeLugar.resx">
+      <DependentUpon>frmCadastroDeLugar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCarrinho.resx">
+      <DependentUpon>frmCarrinho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCartao.resx">
+      <DependentUpon>frmCartao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompra.resx">
+      <DependentUpon>frmCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComprasFeitas.resx">
+      <DependentUpon>frmComprasFeitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenero.resx">
+      <DependentUpon>frmGenero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginCadastro.resx">
+      <DependentUpon>frmLoginCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLugar.resx">
+      <DependentUpon>frmLugar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaginaDePerfil.resx">
+      <DependentUpon>frmPaginaDePerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaginaDoLivro.resx">
+      <DependentUpon>frmPaginaDoLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobreNos.resx">
+      <DependentUpon>frmSobreNos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLivro.resx">
+      <DependentUpon>frmLivro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaginaInicial.resx">
+      <DependentUpon>frmPaginaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Notes - Inserts.txt" />
+    <Content Include="Notes - Creates.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

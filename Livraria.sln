@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livraria", "Livraria.csproj", "{0B667312-D225-45A3-8C69-9C45A5D98446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2023_2_SBD", "..\2020_Seg_SBD_sqlServer\2020_Seg_SBD\2023_2_SBD.csproj", "{9B493062-E85D-4CAA-9501-B51D76EAECF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B667312-D225-45A3-8C69-9C45A5D98446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B667312-D225-45A3-8C69-9C45A5D98446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B667312-D225-45A3-8C69-9C45A5D98446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B667312-D225-45A3-8C69-9C45A5D98446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B493062-E85D-4CAA-9501-B51D76EAECF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B493062-E85D-4CAA-9501-B51D76EAECF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B493062-E85D-4CAA-9501-B51D76EAECF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B493062-E85D-4CAA-9501-B51D76EAECF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852D8212-9970-4B78-9932-6D81C1CE9B19}
+	EndGlobalSection
+EndGlobal
