@@ -46,17 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCadastroDeCartao.cs">
+    <Compile Include="CadastroCliente.cs" />
+    <Compile Include="CadastroLugar.cs" />
+    <Compile Include="CadastroPagamento.cs" />
+    <Compile Include="frmCadastroPagamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroDeCartao.Designer.cs">
-      <DependentUpon>frmCadastroDeCartao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCartao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCartao.Designer.cs">
-      <DependentUpon>frmCartao.cs</DependentUpon>
+    <Compile Include="frmCadastroPagamento.Designer.cs">
+      <DependentUpon>frmCadastroPagamento.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCompra.cs">
       <SubType>Form</SubType>
@@ -70,17 +67,11 @@
     <Compile Include="frmComprasFeitas.Designer.cs">
       <DependentUpon>frmComprasFeitas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLugar.cs">
+    <Compile Include="frmPaginaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLugar.Designer.cs">
-      <DependentUpon>frmLugar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmSobreNos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmSobreNos.Designer.cs">
-      <DependentUpon>frmSobreNos.cs</DependentUpon>
+    <Compile Include="frmPaginaInicial.Designer.cs">
+      <DependentUpon>frmPaginaInicial.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -88,41 +79,17 @@
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCadastroDeLugar.cs">
+    <Compile Include="frmCadastroLugar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCadastroDeLugar.Designer.cs">
-      <DependentUpon>frmCadastroDeLugar.cs</DependentUpon>
+    <Compile Include="frmCadastroLugar.Designer.cs">
+      <DependentUpon>frmCadastroLugar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLoginCadastro.cs">
+    <Compile Include="frmCadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLoginCadastro.Designer.cs">
-      <DependentUpon>frmLoginCadastro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmCarrinho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCarrinho.Designer.cs">
-      <DependentUpon>frmCarrinho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmGenero.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmGenero.Designer.cs">
-      <DependentUpon>frmGenero.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLivro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLivro.Designer.cs">
-      <DependentUpon>frmLivro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmPaginaDePerfil.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPaginaDePerfil.Designer.cs">
-      <DependentUpon>frmPaginaDePerfil.cs</DependentUpon>
+    <Compile Include="frmCadastroCliente.Designer.cs">
+      <DependentUpon>frmCadastroCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPaginaDoLivro.cs">
       <SubType>Form</SubType>
@@ -130,25 +97,13 @@
     <Compile Include="frmPaginaDoLivro.Designer.cs">
       <DependentUpon>frmPaginaDoLivro.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmPaginaInicial.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmPaginaInicial.Designer.cs">
-      <DependentUpon>frmPaginaInicial.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCadastroDeCartao.resx">
-      <DependentUpon>frmCadastroDeCartao.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastroPagamento.resx">
+      <DependentUpon>frmCadastroPagamento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCadastroDeLugar.resx">
-      <DependentUpon>frmCadastroDeLugar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCarrinho.resx">
-      <DependentUpon>frmCarrinho.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCartao.resx">
-      <DependentUpon>frmCartao.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastroLugar.resx">
+      <DependentUpon>frmCadastroLugar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCompra.resx">
       <DependentUpon>frmCompra.cs</DependentUpon>
@@ -156,32 +111,17 @@
     <EmbeddedResource Include="frmComprasFeitas.resx">
       <DependentUpon>frmComprasFeitas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmGenero.resx">
-      <DependentUpon>frmGenero.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLoginCadastro.resx">
-      <DependentUpon>frmLoginCadastro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLugar.resx">
-      <DependentUpon>frmLugar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmPaginaDePerfil.resx">
-      <DependentUpon>frmPaginaDePerfil.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastroCliente.resx">
+      <DependentUpon>frmCadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPaginaDoLivro.resx">
       <DependentUpon>frmPaginaDoLivro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmSobreNos.resx">
-      <DependentUpon>frmSobreNos.cs</DependentUpon>
+    <EmbeddedResource Include="frmPaginaInicial.resx">
+      <DependentUpon>frmPaginaInicial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLivro.resx">
-      <DependentUpon>frmLivro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmPaginaInicial.resx">
-      <DependentUpon>frmPaginaInicial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

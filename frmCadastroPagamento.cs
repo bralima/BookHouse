@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PaginaDeLivro
 {
-    public partial class frmCadastroDeCartao : Form
+    public partial class frmCadastroPagamento : Form
     {
-        public frmCadastroDeCartao()
+        public frmCadastroPagamento()
         {
             InitializeComponent();
         }
@@ -20,6 +20,13 @@ namespace PaginaDeLivro
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmPaginaInicial frm = new frmPaginaInicial();  
+            frm.ShowDialog();
         }
     }
 }

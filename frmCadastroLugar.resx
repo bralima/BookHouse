@@ -121,7 +121,7 @@
   <data name="tsbAlterar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACoAAAArCAYAAAAOnxr+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAf+SURBVFhH7VkJU1NXFPaXdqadTju1dddat1brgqLFBUEQ
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAf+SURBVFhH7VkJU1NXFPaXdqadTju1dddat1brgqLFBUEQ
         KhYRQcSKIptAIECAJJCwBBJ2QsIW9p1Acnq+c9/LEA3ZYKbTmZ7xJuG9e8/93lm+c+7zCCUpQW0EgkHa
         DQTle2c3QH5/gLb9u+TfCcj1IF8PaN/8L2lJCig2xAC42YUNco0uUIvdSxXNo/R33RAVV7movHGEakxj
         1NE3Q6OeJVpd98t8ecAkECcEFPp3d4O0srZN3S4fldUPUU5pL6UX2in3bY8ALP00SK8qnVRaO0gvy530
@@ -161,7 +161,7 @@
   <data name="tsbExcluir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACoAAAArCAYAAAAOnxr+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAfeSURBVFhH7VhZUxRXFJ5/l0cfkifz4FIm0bLUmEWtUpOo
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAfeSURBVFhH7VhZUxRXFJ5/l0cfkifz4FIm0bLUmEWtUpOo
         WMalcClUNAZFZVEEBQVkXxQBgYFhkX3f922AGWaGk+87PT3ONDMyYIr4kFMcerr73nO/e7Z7TtvET2tr
         a+LxeKSurk4SExPF6XSK1+v1v/1IGCb4E59vTbxgXj1en7hXvcoej0+fmazjOeEzKQCURLBkn4+L+fxP
         DTIX0w0B2PCEUz50T0tpzaDkvOmVF8Vd8ryoS7LLe6Soul8aOyZlYHRBVlxenWPO3SqFACWZYIOJt9TU
@@ -201,7 +201,7 @@
   <data name="tsbIncluir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACoAAAArCAYAAAAOnxr+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAcTSURBVFhH1VnpU1NXFOff7PSjttMPnba2M1r7obbTmS5q
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAcTSURBVFhH1VnpU1NXFOff7PSjttMPnba2M1r7obbTmS5q
         3ZcZtSKiFUURhCoCgoiyL1lYwhIIkIWQhCQESCAJp+d33rsvC1leIFOnZ+aQ5N5z7/3dc892LzVUJdrf
         B+8f4GrRoYECA4Ck0xneS6Zpdy9lcDKVlvYU+gW4PvgQVDFQTVPa59b2Hrk8mzTh8FPnwDK1vVuk52/m
         qaV7QfhV3xL1jbnJsRSiteC2AFZarhRzRUCxRmI3RSu+TeodWaX61hm62WClm4+t9IC/P+ucp7a3Tmrp
@@ -236,8 +236,5 @@
   </data>
   <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
   </metadata>
 </root>

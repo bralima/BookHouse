@@ -21,5 +21,12 @@ namespace PaginaDeLivro
         {
 
         }
+
+        private void ajudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmPaginaInicial frm = new frmPaginaInicial();
+            frm.ShowDialog();
+        }
     }
 }
